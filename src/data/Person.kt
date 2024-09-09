@@ -17,5 +17,11 @@ class Person {
     fun fullId():String {
         return "$name $age $country"
     }
+
+//    Function overloading, membuat nama fungsi yg sama tetapi param,tipe data harus beda
+    fun sayHello(firstName: String,lastName:String){
+    println("Hello $firstName $lastName , My name is $name")
+}
+
 }
 
