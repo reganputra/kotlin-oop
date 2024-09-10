@@ -1,6 +1,7 @@
 interface IFly {
-    fun fly()
-    val numberOfWings: Int
+    //default value not allowed
+    fun fly()//must be overridden
+    val numberOfWings: Int//must be overridden
 }
 
 class Bird(override val numberOfWings: Int) : IFly {
@@ -11,9 +12,11 @@ class Bird(override val numberOfWings: Int) : IFly {
 }
 
 fun main(){
-    val bird = Bird(2) 
+    val bird = Bird(2)
     bird.fly()
 
     val noWingBird = Bird(0)
     noWingBird.fly()
 }
+
+
