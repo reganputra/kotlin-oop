@@ -21,7 +21,7 @@ open class King(name: String): Kingdom(name) {
     }
 }
 
-
+// Child class
 class Queen(name: String): Kingdom(name){
     override fun greeting(name: String) {
         println("Hello $name, yes, you're right i am ${this.name}")
