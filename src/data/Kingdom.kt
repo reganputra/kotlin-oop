@@ -15,7 +15,7 @@ open class Kingdom (var name: String) {
 // every Child inherit both properties and function from parent in this case
 open class King(name: String): Kingdom(name) {
 //    ovveride implementation
-//    you can add final to override function so child class cant create parent function
+//    use final to override function so child class cant create parent function
     override fun greeting(name: String) {
         println("Hello $name, yes, you're right i am ${this.name}")
     }
