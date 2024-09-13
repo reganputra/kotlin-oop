@@ -1,3 +1,4 @@
+
 interface IFly {
     //default value not allowed
     fun fly()//must be overridden
