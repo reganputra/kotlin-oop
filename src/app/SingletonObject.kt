@@ -7,5 +7,5 @@ fun main(){
     println(Utilities.name)
     println(Utilities.toUppeer("handoko"))
 
-    println(Application.Util.toLower("JARJIT"))
+    println(Application.toLower("JARJIT"))
 }

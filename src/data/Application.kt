@@ -1,7 +1,7 @@
 package data
 
 class Application(val name: String) {
-    object Util{
+   companion object { // companion object
         fun toLower(name: String): String{
             return name.lowercase()
         }
